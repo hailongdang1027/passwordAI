@@ -1,0 +1,32 @@
+{
+    "pipeline_id": "488bc2cd-446c-4d5d-b7b4-f701c00e431d",
+    "created_at": "2026-08-04T10:29:25.869845",
+    "steps": [
+        {
+            "id": 1,
+            "rule": "NAME",
+            "params": {}
+        },
+        {
+            "id": 2,
+            "rule": "DATE",
+            "params": {
+                "format": "YEAR"
+            }
+        },
+        {
+            "id": 3,
+            "rule": "SUFFIX",
+            "params": {
+                "char": "@"
+            }
+        },
+        {
+            "id": 4,
+            "rule": "LEET",
+            "params": {
+                "max_change": 2
+            }
+        }
+    ]
+}

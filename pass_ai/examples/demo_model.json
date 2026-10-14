@@ -1,0 +1,64 @@
+{
+  "schema_version": "password-strength-logreg-v1",
+  "feature_names": [
+    "length",
+    "lowercase_ratio",
+    "uppercase_ratio",
+    "digit_ratio",
+    "symbol_ratio",
+    "unique_char_ratio",
+    "longest_repeat_run",
+    "longest_digit_run",
+    "longest_alpha_run",
+    "shannon_entropy",
+    "character_class_count"
+  ],
+  "mean": [
+    13.852272727272727,
+    0.5681022628586082,
+    0.18754274951812402,
+    0.16862071110822927,
+    0.07573427651503893,
+    0.9086959232807732,
+    1.2386363636363635,
+    1.4090909090909092,
+    6.090909090909091,
+    3.3725221130436975,
+    2.8181818181818183
+  ],
+  "scale": [
+    7.13751257398554,
+    0.2645585906828456,
+    0.20141308309724495,
+    0.11996770220716745,
+    0.09423078266109065,
+    0.08338365905675817,
+    0.42624998485252397,
+    0.912493631812942,
+    2.0540224595809096,
+    0.7807660958001087,
+    1.1336330830309032
+  ],
+  "coefficients": [
+    0.9085909322395592,
+    -0.7476451277493057,
+    0.8621888710839807,
+    -0.27262422618241117,
+    0.6032627870306145,
+    -0.32766802765909636,
+    0.0497914776348203,
+    -0.21616656175726284,
+    0.19532595407028652,
+    0.8628392387774497,
+    0.9352643115151681
+  ],
+  "intercept": 0.17473879884734586,
+  "threshold": 0.5,
+  "metadata": {
+    "trained_utc": "2026-10-09T03:12:06.438169+00:00",
+    "algorithm": "StandardScaler + LogisticRegression",
+    "label_semantics": "0=weak, 1=strong (provided by dataset author)",
+    "training_samples": 88,
+    "feature_version": "password-strength-logreg-v1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "total_samples": 6,
+  "unique_patterns": 4,
+  "coverage": 1.0,
+  "patterns": [
+    {
+      "pattern": "CAP3+SEP_UNDERSCORE+YEAR4",
+      "count": 2,
+      "probability": 0.3333333333333333
+    },
+    {
+      "pattern": "LOWER5+DIGIT3",
+      "count": 2,
+      "probability": 0.3333333333333333
+    },
+    {
+      "pattern": "CAP4+SEP_UNDERSCORE+YEAR4",
+      "count": 1,
+      "probability": 0.16666666666666666
+    },
+    {
+      "pattern": "LOWER6+DIGIT2",
+      "count": 1,
+      "probability": 0.16666666666666666
+    }
+  ]
+}
